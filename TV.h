@@ -8,8 +8,9 @@ public:
 	int Volume;
 
 	void On();
-	void SetChannel(int Channel);
-	void SetVolume(int Volume);
+	void Off();
+	void SetChannel(int NewChannel);
+	void SetVolume(int NewVolume);
 	int GetChannel();
 	int GetVolume();
 
